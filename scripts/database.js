@@ -10,61 +10,71 @@ const database = {
         id: 1,
         name: "Alphonse Meron",
         email: "ameron0@mashable.com",
-        hourlyRate: 11.50
+        hourlyRate: 11.50,
+        itemsSold: 3
 
     }, {
         id: 2,
         name: "Damara Pentecust",
         email: "dpentecust1@apache.org",
-        hourlyRate: 10.75
+        hourlyRate: 10.75,
+        itemsSold:1
 
     }, {
         id: 3,
         name: "Anna Bowton",
         email: "abowton2@wisc.edu",
-        hourlyRate: 12.30
+        hourlyRate: 12.30,
+        itemsSold:1
 
     }, {
         id: 4,
         name: "Hunfredo Drynan",
         email: "hdrynan3@bizjournals.com",
-        hourlyRate: 12.00
+        hourlyRate: 12.00,
+        itemsSold:0
 
     }, {
         id: 5,
         name: "Elmira Bick",
         email: "ebick4@biblegateway.com",
-        hourlyRate: 12.30
+        hourlyRate: 12.30,
+        itemsSold: 2
 
     }, {
         id: 6,
         name: "Bernie Dreger",
         email: "bdreger5@zimbio.com",
-        hourlyRate: 11.50
+        hourlyRate: 11.50,
+        itemsSold: 1
 
     }, {
         id: 7,
         name: "Rolando Gault",
         email: "rgault6@google.com",
-        hourlyRate: 11.80
+        hourlyRate: 11.80,
+        itemsSold: 3
 
     }, {
         id: 8,
         name: "Tiffanie Tubby",
         email: "ttubby7@intel.com",
-        hourlyRate: 21.00
+        hourlyRate: 21.00,
+        itemsSold: 2
 
     }, {
         id: 9,
         name: "Tomlin Cutill",
         email: "tcutill8@marketwatch.com",
-        hourlyRate: 12.10
+        hourlyRate: 12.10,
+        itemsSold:2
 
     }, {
         id: 10,
         name: "Arv Biddle",
         email: "abiddle9@cafepress.com",
-        hourlyRate: 13.00
+        hourlyRate: 13.00,
+        itemsSold: 1
 
     }],
     products: [{
@@ -111,7 +121,7 @@ const database = {
     }, {
         productId: 4, employeeId: 1, timestamp: 1612338112396
     }, {
-        productId: 6, employeeId: 11, timestamp: 1612238112396
+        productId: 6, employeeId: 10, timestamp: 1612238112396
     }, {
         productId: 10, employeeId: 8, timestamp: 1630538112396
     }, {
